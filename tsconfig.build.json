@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "declaration": true,                              /* Generate .d.ts files from TypeScript and JavaScript files in your project. */
+    "declarationMap": false,                           /* Create sourcemaps for d.ts files. */
+    "sourceMap": false,                                /* Create source map files for emitted JavaScript files. */
+    "inlineSourceMap": false,                          /* Include sourcemap files inside the emitted JavaScript. */
+  },
+  "exclude": ["__tests__/**/*", "jest.config.ts"]
+}
